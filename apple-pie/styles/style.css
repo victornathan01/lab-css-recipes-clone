@@ -22,3 +22,18 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image h1 {
+  color: white;
+}
