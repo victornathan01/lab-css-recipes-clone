@@ -3,6 +3,8 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin-bottom: 90px;
+  
 }
 
 *, *:before, *:after {
@@ -10,7 +12,10 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
   padding: 0;
   font-weight: lighter;
 }
@@ -32,8 +37,46 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  }
 
 .hero-image h1 {
   color: white;
 }
+
+.intro {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.intro p{
+  padding-bottom: 20px;
+}
+.intro img{
+    height: 70px;
+  }
+
+.break-line{
+  border: 1px solid gray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    }
+
+.ingredients h2 {
+padding-bottom: 10px;
+}
+
+.ingredients img {
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.directions h2 {
+  padding-top: 20px;
+  }
